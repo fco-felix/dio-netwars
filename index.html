@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <title>Netwars</title>
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css" class="css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" class="css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -18,7 +24,68 @@
                 <a href="#">Veículos</a>
             </nav>
         </div>
-
     </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="filme-titulo">Star Wars I</h3>
+                <p class="filme-titulo-descricao">Descrição do filme em questão, afinal precisa ter algum texto por aqui
+                    para
+                    não ficar sem nada na linha.</p>
+                <div class="filme-botoes">
+                    <button role="button" class="filme-botao">
+                        <i class="far fa-play-circle"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="filme-botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="image/imagem1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="image/imagem2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="image/imagem3.png" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="image/imagem4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="image/imagem5.png" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="image/imagem6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="image/imagem7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="image/imagem8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="image/imagem9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="image/imagem10.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/318bda65f9.js" crossorigin="anonymous"></script>
+    <script src="script/owl/jquery.min.js"></script>
+    <script src="script/owl/owl.carousel.min.js"></script>
+    <script src="script/owl/setup.js"></script>
+
 </body>
+
 </html>

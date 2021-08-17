@@ -13,6 +13,7 @@
 body {
     background-color: var(--preto);
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 header .container {
@@ -37,4 +38,51 @@ header nav a:hover {
     color: var(--preto);
     background-color: var(--amarelo)!important;
     transition: 750ms;
+}
+
+.filme-principal{
+    font-size: 20px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/image/capa.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container{
+    margin-left: 30px;
+}
+
+.filme-titulo {
+    font-size: 40px;
+}
+
+.filme-titulo-descricao {
+    margin-bottom: 40px;
+}
+
+.filme-botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.filme-botao i{
+    margin-right: 8px;
+}
+.filme-botao:hover{
+    color: var(--preto);
+    background-color: var(--amarelo)!important;
+    transition: 500ms;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
