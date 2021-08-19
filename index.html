@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
     <title>Netwars</title>
 
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <!-- owl css -->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css" class="css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css" class="css">
@@ -19,25 +20,23 @@
             <h2 id="logotipo">NETWARS</h2>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Personagens</a>
-                <a href="#">Naves</a>
-                <a href="#">Veículos</a>
+                <a href="#secao-personagens">Personagens</a>
+                <a href="#secao-naves">Naves</a>
+                <a href="#secao-veiculos">Veículos</a>
             </nav>
         </div>
     </header>
     <main>
-        <div class="filme-principal">
+        <div class="capa-principal">
             <div class="container">
-                <h3 class="filme-titulo">Star Wars I</h3>
-                <p class="filme-titulo-descricao">Descrição do filme em questão, afinal precisa ter algum texto por aqui
-                    para
-                    não ficar sem nada na linha.</p>
-                <div class="filme-botoes">
-                    <button role="button" class="filme-botao">
+                <h3 class="capa-titulo">Star Wars I</h3>
+                <p class="capa-titulo-descricao">Há muito tempo, em uma galáxia muito, muito distante.</p>
+                <div class="capa-botoes">
+                    <button role="button" class="capa-botao" onclick="location.href='https://www.youtube.com/watch?v=tGsKzZtRwxw';" value="YouTube">
                         <i class="far fa-play-circle"></i>
                         ASSISTIR AGORA
                     </button>
-                    <button role="button" class="filme-botao">
+                    <button role="button" class="capa-botao" onclick="location.href='https://pt.wikipedia.org/wiki/Star_Wars';" value="Wikipedia">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
                     </button>
@@ -46,37 +45,95 @@
         </div>
     </main>
 
-    <div class="carrossel-filmes">
+    <div class="secao-carrossel">
+        <h3 class="secao-titulo" id="secao-personagens">Personagens</h3>
         <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img class="box-filme" src="image/imagem1.jpg" alt="" srcset="">
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/personagens/imagem1.jpg" alt="" srcset="">
             </div>
-            <div class="item">
-                <img class="box-filme" src="image/imagem2.jpg" alt="" srcset="">
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/personagens/imagem2.jpg" alt="" srcset="">
             </div>
-            <div class="item">
-                <img class="box-filme" src="image/imagem3.png" alt="" srcset="">
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/personagens/imagem3.png" alt="" srcset="">
             </div>
-            <div class="item">
-                <img class="box-filme" src="image/imagem4.jpg" alt="" srcset="">
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/personagens/imagem4.jpg" alt="" srcset="">
             </div>
-            <div class="item">
-                <img class="box-filme" src="image/imagem5.png" alt="" srcset="">
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/personagens/imagem5.png" alt="" srcset="">
             </div>
-            <div class="item">
-                <img class="box-filme" src="image/imagem6.jpg" alt="" srcset="">
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/personagens/imagem6.jpg" alt="" srcset="">
             </div>
-            <div class="item">
-                <img class="box-filme" src="image/imagem7.jpg" alt="" srcset="">
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/personagens/imagem7.jpg" alt="" srcset="">
             </div>
-            <div class="item">
-                <img class="box-filme" src="image/imagem8.jpg" alt="" srcset="">
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/personagens/imagem8.jpg" alt="" srcset="">
             </div>
-            <div class="item">
-                <img class="box-filme" src="image/imagem9.jpg" alt="" srcset="">
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/personagens/imagem9.jpg" alt="" srcset="">
             </div>
-            <div class="item">
-                <img class="box-filme" src="image/imagem10.jpg" alt="" srcset="">
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/personagens/imagem10.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class="secao-carrossel">
+        <h3 class="secao-titulo" id="secao-naves">Naves</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/naves/imagem1.png" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/naves/imagem2.jpg" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/naves/imagem3.jpg" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/naves/imagem4.jpg" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/naves/imagem5.png" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/naves/imagem6.jpg" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/naves/imagem7.png" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/naves/imagem8.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <div class="secao-carrossel">
+        <h3 class="secao-titulo" id="secao-veiculos">Veículos</h3>
+        <div class="owl-carousel owl-theme">
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/veiculos/imagem1.jpeg" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/veiculos/imagem2.jpg" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/veiculos/imagem3.jpg" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/veiculos/imagem4.jpg" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/veiculos/imagem5.jpg" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-jedi">
+                <img class="secao-box" src="image/veiculos/imagem6.png" alt="" srcset="">
+            </div>
+            <div class="secao-item secao-item-sith">
+                <img class="secao-box" src="image/veiculos/imagem7.jpg" alt="" srcset="">
             </div>
         </div>
     </div>

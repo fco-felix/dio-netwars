@@ -40,7 +40,7 @@ header nav a:hover {
     transition: 750ms;
 }
 
-.filme-principal{
+.capa-principal{
     font-size: 20px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/image/capa.jpg');
     height: 400px;
@@ -55,15 +55,16 @@ header nav a:hover {
     margin-left: 30px;
 }
 
-.filme-titulo {
+.capa-titulo {
     font-size: 40px;
 }
 
-.filme-titulo-descricao {
+.capa-titulo-descricao {
+    width: 80%;
     margin-bottom: 40px;
 }
 
-.filme-botao{
+.capa-botao{
     background-color: rgba(0,0,0,.50);
     border: none;
     color: white;
@@ -72,17 +73,38 @@ header nav a:hover {
     cursor: pointer;
 }
 
-.filme-botao i{
+.capa-botao i{
     margin-right: 8px;
 }
-.filme-botao:hover{
+.capa-botao:hover{
     color: var(--preto);
     background-color: var(--amarelo)!important;
     transition: 500ms;
 }
 
-.box-filme{
+.secao-item{
+    border: 2px;
+    border-style: solid;
+    height: 250px;
+    width: 100%;
+}
+
+.secao-item-jedi{
+    border-color: green;
+}
+
+.secao-item-sith{
+    border-color: red;
+}
+
+.secao-box{
     height: 100%;
     width: 100%;
     display: block;
+    padding: 2px;
+    object-fit: contain;
+}
+
+.secao-carrossel{
+    margin: 5px 10px 5px 10px;
 }
